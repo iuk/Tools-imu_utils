@@ -1,3 +1,13 @@
+编译方法：
+1. mkdir build
+2. cd build
+3. cmake..
+4. make
+5. 生成在 build/devel/lib/imu_utils 下
+
+
+--------------------------------------------------
+
 # imu_utils
 
 A ROS package tool to analyze the IMU performance. C++ version of Allan Variance Tool. 
