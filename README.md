@@ -5,6 +5,113 @@
 4. make
 5. 生成在 build/devel/lib/imu_utils 下
 
+----------------------------------------------
+
+输出
+
+```
+gyr x  num of Cluster 100
+gyr y  num of Cluster 100
+gyr z  num of Cluster 100
+acc x  num of Cluster 100
+acc y  num of Cluster 100
+acc z  num of Cluster 100
+wait for imu data.
+gyr x  numData 1200017
+gyr x  start_t 1.51954e+09
+gyr x  end_t 1.51956e+09
+gyr x dt 
+-------------12000.3 s
+-------------200.005 min
+-------------3.33342 h
+gyr x  freq 99.9986
+gyr x  period 0.0100001
+gyr y  numData 1200017
+gyr y  start_t 1.51954e+09
+gyr y  end_t 1.51956e+09
+gyr y dt 
+-------------12000.3 s
+-------------200.005 min
+-------------3.33342 h
+gyr y  freq 99.9986
+gyr y  period 0.0100001
+gyr z  numData 1200017
+gyr z  start_t 1.51954e+09
+gyr z  end_t 1.51956e+09
+gyr z dt 
+-------------12000.3 s
+-------------200.005 min
+-------------3.33342 h
+gyr z  freq 99.9986
+gyr z  period 0.0100001
+Gyro X 
+C    0.337159     27.3329     7.07386    0.236514 -0.00191803
+ Bias Instability 9.57595e-05 rad/s
+ Bias Instability 6.41789e-05 rad/s, at 418.686 s
+ White Noise 5.25062 rad/s
+ White Noise 0.00159214 rad/s
+  bias -0.124198 degree/s
+-------------------
+Gyro y 
+C     0.111842      27.2638      5.54463     0.381286 -0.000888626
+ Bias Instability 9.63883e-05 rad/s
+ Bias Instability 6.68627e-05 rad/s, at 96.9113 s
+ White Noise 4.99841 rad/s
+ White Noise 0.00152942 rad/s
+  bias -0.0208066 degree/s
+-------------------
+Gyro z 
+C    -0.11102     29.2664     2.72724    0.463507 -0.00461278
+ Bias Instability 6.11902e-05 rad/s
+ Bias Instability 4.6245e-05 rad/s, at 96.9113 s
+ White Noise 5.60188 rad/s
+ White Noise 0.00161581 rad/s
+  bias 0.134288 degree/s
+-------------------
+==============================================
+==============================================
+acc x  numData 1200017
+acc x  start_t 1.51954e+09
+acc x  end_t 1.51956e+09
+acc x dt 
+-------------12000.3 s
+-------------200.005 min
+-------------3.33342 h
+acc x  freq 99.9986
+acc x  period 0.0100001
+acc y  numData 1200017
+acc y  start_t 1.51954e+09
+acc y  end_t 1.51956e+09
+acc y dt 
+-------------12000.3 s
+-------------200.005 min
+-------------3.33342 h
+acc y  freq 99.9986
+acc y  period 0.0100001
+acc z  numData 1200017
+acc z  start_t 1.51954e+09
+acc z  end_t 1.51956e+09
+acc z dt 
+-------------12000.3 s
+-------------200.005 min
+-------------3.33342 h
+acc z  freq 99.9986
+acc z  period 0.0100001
+acc X 
+C  2.12866e-05  0.000632738  0.000120405  5.63399e-05 -7.05642e-07
+ Bias Instability 0.000507817 m/s^2
+ White Noise 0.00829264 m/s^2
+-------------------
+acc y 
+C -1.47851e-06    0.0007568  1.18022e-05  1.25705e-05 -1.75771e-07
+ Bias Instability 0.000184108 m/s^2
+ White Noise 0.00767715 m/s^2
+-------------------
+acc z 
+C  1.15343e-05  0.000666672  7.00974e-05  2.26047e-05 -3.07754e-07
+ Bias Instability 0.000305756 m/s^2
+ White Noise 0.0075902 m/s^2
+```
 
 --------------------------------------------------
 
